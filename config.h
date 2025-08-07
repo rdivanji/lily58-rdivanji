@@ -40,5 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
 #define RGBLIGHT_SLEEP
-//#define RGBLED_SPLIT {20, 20}
-//#define RGBLIGHT_SPLIT //these break the secondary half for some reason...
+
+/*Note to self: If behavior of changing these settings 
+  is unexpected, try reflashing and clearing EEPROM
+  of *BOTH* controllers */
