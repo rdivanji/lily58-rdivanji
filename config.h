@@ -34,15 +34,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_EFFECT_RGB_TEST
 #define RGBLIGHT_EFFECT_ALTERNATING
 #define RGBLIGHT_EFFECT_TWINKLE
-#define RGBLIGHT_LED_COUNT 27
+#define RGBLIGHT_LED_COUNT 20
 #define RGBLIGHT_LIMIT_VAL 120
 #define RGBLIGHT_HUE_STEP 10
 #define RGBLIGHT_SAT_STEP 17
 #define RGBLIGHT_VAL_STEP 17
-
-// Underglow
-/*
-#undef RGBLIGHT_LED_COUNT
-#define RGBLIGHT_LED_COUNT 14    // Number of LEDs
 #define RGBLIGHT_SLEEP
-*/
+//#define RGBLED_SPLIT {20, 20}
+//#define RGBLIGHT_SPLIT //these break the secondary half for some reason...
